@@ -1,14 +1,17 @@
 //
 //  AppDelegate.m
-//  BaiSiDemo2015
+//  101-百思不得姐
 //
-//  Created by 陶飞 on 16/10/12.
-//  Copyright © 2016年 TaoFei. All rights reserved.
+//  Created by 陶飞 on 15/5/28.
+//  Copyright © 2015年 taofei. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "TFTabBarController.h"
+#import "TFPushGuideView.h"
+#import "TFTopWindow.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UITabBarControllerDelegate>
 
 @end
 
@@ -17,8 +20,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //1.创建窗口
+    self.window=[[UIWindow alloc]init];//创建一个空的窗口
+    self.window.frame=[UIScreen mainScreen].bounds;//设置窗口的尺寸
+    //2.设置窗口的跟控制器
+    //2.0初始化一个tabBarController
+    TFTabBarController *tabBarController=[[TFTabBarController alloc]init];
+    self.window.rootViewController=tabBarController;//设置tabBarController为跟控制器
+    tabBarController.delegate=self;
+    
+    
+    //3.显示窗口
+    [self.window makeKeyAndVisible];
+    
+    //4.显示推送指南
+    [TFPushGuideView show];
+    
+    
+    
+    
+    
+       
     return YES;
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -35,11 +62,31 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    //添加一个window.回滚
+    [TFTopWindow show];
+    
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark -<UITabBarControllerDelegate>
+-(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    
+    //发出通知
+//    NSMutableDictionary *userInfo=[NSMutableDictionary dictionary];
+//    userInfo[TFSelectedControllerKey]=viewController;
+//    userInfo[TFSelectedControllerIndexKey]=@(tabBarController.selectedIndex);
+    
+    
+    [TFNotoiceCenter postNotificationName:TFTabBarDidSelectedNotification object:nil userInfo:nil];
+    
+    
+//    TFLog(@"%@",viewController);
+    
 }
 
 @end

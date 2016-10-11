@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  101-百思不得姐
+//
+//  Created by 陶飞 on 15/5/29.
+//  Copyright © 2015年 taofei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+TFExtension.h"
+#import "UIBarButtonItem+TFExtension.h"
+#import "TFConst.h"
+#import "NSDate+TFExtension.h"
+#import "UIImageView+TFExtentsion.h"
+#import "UIImage+TFExtension.h"
+
+
+
+#ifdef DEBUG
+
+#define TFLog(...)  NSLog(__VA_ARGS__)
+
+#else
+
+#define TFLog(...) 
+#endif
+
+#define TFLogFunc TFLog(@"%s",__func__)
+
+#define TFRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define TFGlobalBg TFRGBColor(223, 223, 223)
+
+#define TFNotoiceCenter  [NSNotificationCenter defaultCenter]
+
+#define TFScreenW [UIScreen mainScreen].bounds.size.width
+#define TFScreenH [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  BaiSiDemo2015
+//  101-百思不得姐
 //
-//  Created by 陶飞 on 16/10/12.
-//  Copyright © 2016年 TaoFei. All rights reserved.
+//  Created by 陶飞 on 15/5/28.
+//  Copyright © 2015年 taofei. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
