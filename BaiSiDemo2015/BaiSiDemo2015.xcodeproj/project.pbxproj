@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9621DC51DAD8B3900F7B5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621DC31DAD8B3900F7B5F9 /* Main.storyboard */; };
-		F9621DCA1DAD8B3900F7B5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621DC81DAD8B3900F7B5F9 /* LaunchScreen.storyboard */; };
 		F9621DD51DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621DD41DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.m */; };
 		F9621DE01DAD8B3A00F7B5F9 /* BaiSiDemo2015UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621DDF1DAD8B3A00F7B5F9 /* BaiSiDemo2015UITests.m */; };
 		F9621E781DAD8C9C00F7B5F9 /* TFCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621DF11DAD8C9C00F7B5F9 /* TFCommentViewController.m */; };
@@ -169,8 +167,6 @@
 
 /* Begin PBXFileReference section */
 		F9621DB71DAD8B3900F7B5F9 /* BaiSiDemo2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiDemo2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9621DC41DAD8B3900F7B5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F9621DC91DAD8B3900F7B5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9621DCB1DAD8B3900F7B5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9621DD01DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiDemo2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9621DD41DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiDemo2015Tests.m; sourceTree = "<group>"; };
@@ -499,8 +495,6 @@
 			isa = PBXGroup;
 			children = (
 				F9621DCB1DAD8B3900F7B5F9 /* Info.plist */,
-				F9621DC31DAD8B3900F7B5F9 /* Main.storyboard */,
-				F9621DC81DAD8B3900F7B5F9 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1565,9 +1559,7 @@
 				F9621F8B1DAD8DEC00F7B5F9 /* Info.plist in Resources */,
 				F9621E8F1DAD8C9C00F7B5F9 /* TFTopicVoiceView.xib in Resources */,
 				F9621E7D1DAD8C9C00F7B5F9 /* TFShowPictureViewController.xib in Resources */,
-				F9621DCA1DAD8B3900F7B5F9 /* LaunchScreen.storyboard in Resources */,
 				F9621FB51DAD8DEC00F7B5F9 /* LICENSE in Resources */,
-				F9621DC51DAD8B3900F7B5F9 /* Main.storyboard in Resources */,
 				F9621E9B1DAD8C9C00F7B5F9 /* TFRecommendUserCell.xib in Resources */,
 				F9621EB21DAD8C9C00F7B5F9 /* TFPushGuideView.xib in Resources */,
 				F9621E8D1DAD8C9C00F7B5F9 /* TFTopicVideoView.xib in Resources */,
@@ -1748,25 +1740,6 @@
 			targetProxy = F9621DDC1DAD8B3A00F7B5F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F9621DC31DAD8B3900F7B5F9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9621DC41DAD8B3900F7B5F9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F9621DC81DAD8B3900F7B5F9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9621DC91DAD8B3900F7B5F9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F9621DE21DAD8B3A00F7B5F9 /* Debug */ = {

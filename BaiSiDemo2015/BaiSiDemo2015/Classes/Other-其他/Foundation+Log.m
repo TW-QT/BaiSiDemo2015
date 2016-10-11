@@ -2,7 +2,7 @@
 //  NSDictionary+Log.m
 //  05-掌握-多值参数
 //
-//  Created by xiaomage on 15/7/13.
+//  Created by taofei on 15/7/13.
 //  Copyright (c) 2015年 taofei. All rights reserved.
 //
 
