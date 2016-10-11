@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F9621DC51DAD8B3900F7B5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621DC31DAD8B3900F7B5F9 /* Main.storyboard */; };
-		F9621DC71DAD8B3900F7B5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9621DC61DAD8B3900F7B5F9 /* Assets.xcassets */; };
 		F9621DCA1DAD8B3900F7B5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621DC81DAD8B3900F7B5F9 /* LaunchScreen.storyboard */; };
 		F9621DD51DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621DD41DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.m */; };
 		F9621DE01DAD8B3A00F7B5F9 /* BaiSiDemo2015UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621DDF1DAD8B3A00F7B5F9 /* BaiSiDemo2015UITests.m */; };
@@ -148,6 +147,7 @@
 		F9621FC71DAD8DEC00F7B5F9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F9621F771DAD8DEC00F7B5F9 /* SVProgressHUD.bundle */; };
 		F9621FC81DAD8DEC00F7B5F9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621F791DAD8DEC00F7B5F9 /* SVProgressHUD.m */; };
 		F9621FC91DAD8DEC00F7B5F9 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621F7B1DAD8DEC00F7B5F9 /* SVRadialGradientLayer.m */; };
+		F9621FCB1DAD90E900F7B5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9621FCA1DAD90E900F7B5F9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,7 +170,6 @@
 /* Begin PBXFileReference section */
 		F9621DB71DAD8B3900F7B5F9 /* BaiSiDemo2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiDemo2015.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9621DC41DAD8B3900F7B5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F9621DC61DAD8B3900F7B5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9621DC91DAD8B3900F7B5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9621DCB1DAD8B3900F7B5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9621DD01DAD8B3A00F7B5F9 /* BaiSiDemo2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiDemo2015Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -436,6 +435,7 @@
 		F9621F791DAD8DEC00F7B5F9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		F9621F7A1DAD8DEC00F7B5F9 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		F9621F7B1DAD8DEC00F7B5F9 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		F9621FCA1DAD90E900F7B5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,7 +489,7 @@
 			children = (
 				F9621EB91DAD8DEB00F7B5F9 /* FrameWorks */,
 				F9621DED1DAD8C9C00F7B5F9 /* Classes */,
-				F9621DC61DAD8B3900F7B5F9 /* Assets.xcassets */,
+				F9621FCA1DAD90E900F7B5F9 /* Assets.xcassets */,
 				F9621DBA1DAD8B3900F7B5F9 /* Supporting Files */,
 			);
 			path = BaiSiDemo2015;
@@ -1567,7 +1567,6 @@
 				F9621E7D1DAD8C9C00F7B5F9 /* TFShowPictureViewController.xib in Resources */,
 				F9621DCA1DAD8B3900F7B5F9 /* LaunchScreen.storyboard in Resources */,
 				F9621FB51DAD8DEC00F7B5F9 /* LICENSE in Resources */,
-				F9621DC71DAD8B3900F7B5F9 /* Assets.xcassets in Resources */,
 				F9621DC51DAD8B3900F7B5F9 /* Main.storyboard in Resources */,
 				F9621E9B1DAD8C9C00F7B5F9 /* TFRecommendUserCell.xib in Resources */,
 				F9621EB21DAD8C9C00F7B5F9 /* TFPushGuideView.xib in Resources */,
@@ -1576,6 +1575,7 @@
 				F9621FAD1DAD8DEC00F7B5F9 /* MJRefresh.bundle in Resources */,
 				F9621E931DAD8C9C00F7B5F9 /* TFLoginRegisteViewController.xib in Resources */,
 				F9621E871DAD8C9C00F7B5F9 /* TFRecommendTagCell.xib in Resources */,
+				F9621FCB1DAD90E900F7B5F9 /* Assets.xcassets in Resources */,
 				F9621E951DAD8C9C00F7B5F9 /* TFRecommendViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1857,6 +1857,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaiSiDemo2015/FrameWorks",
@@ -1874,6 +1875,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaiSiDemo2015/FrameWorks",
