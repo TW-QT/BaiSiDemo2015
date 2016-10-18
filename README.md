@@ -12,7 +12,8 @@ keywords: iOS项目,个人项目,百思不得姐,开发,流程,完整
 `申明:本篇博文内容属原创,如需转载请注明出处.`
 
 
-
+项目Gif图如下：
+![BaiSiDemo2015 GIF](ReadmeImages/BaiSiDemo2015.gif)
 
 ---
 
